@@ -32,7 +32,6 @@ Please type in the math operation you would like to complete:
     elif operation == '/':
         print(f'{number_1} / {number_2} = {result_4}')
     
-
     else:
         print('You have not typed a valid operator, please run the program again \n')
 
