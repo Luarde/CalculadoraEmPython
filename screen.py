@@ -8,7 +8,7 @@ equalButton: dict = {'size':(15,2),'focus':True}
 
 # Layout
 layout: list = [
-    [sg.Text('0.00', size=(50,1), justification='center', relief='sunken', key="_DISPLAY_")],
+    [sg.Text('0.00', size=(50,1), justification='right', relief='sunken', key="_DISPLAY_")],
     [sg.Button('C',**numButton), sg.Button('/',**numButton), sg.Button('*',**numButton), sg.Button('-',**numButton)],
     [sg.Button('7',**numButton), sg.Button('8',**numButton), sg.Button('9',**numButton), sg.Button('+',**numButton)],
     [sg.Button('4',**numButton), sg.Button('5',**numButton), sg.Button('6',**numButton)],
